@@ -17,3 +17,13 @@ cat <some json(net) source> | jsvg <path to json(net) file with json schema defi
   - if successful, the final json output is sent to STDOUT
   - if any validation errors are found, they are printed to STDERR, and nothing is sent to STDOUT
 
+
+# typescript library
+
+  see `jsvg-lib.ts`
+
+## testing
+
+```
+jest
+```
